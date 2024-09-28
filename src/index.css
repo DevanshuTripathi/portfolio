@@ -14,6 +14,15 @@ body {
     background-color: #363636;
 }
 
+.navbar li {
+    transition:0.3s;
+}
+
+.navbar li :hover{
+    filter: brightness(0.5);
+    cursor:pointer;
+}
+
 /* Flexbox layout for intro section */
 .intro {
     display: flex;
@@ -34,6 +43,11 @@ body {
 }
 
 @media (max-width:480px) {
+    .profile-pic {
+        width:120px;
+        border-radius:50%;
+    }
+
     .intro {
         flex-direction: column;
     }

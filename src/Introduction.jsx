@@ -10,12 +10,13 @@ function Introduction(){
             </div>
 
             <div className="intro-content">
-            <p className="text-3xl md:text-4xl font-bold to-animate">
+            <p className="text-3xl md:text-4xl font-bold mb-5">
                 Hi, I am Devanshu Tripathi
             </p>
             <p className="text-base md:text-lg block">
                 I am a passionate web developer and also a pretty lazy person.
                 I like to code and make websites.
+                Average Chess Enjoyer and Music Player.
 
             </p>
             </div>
