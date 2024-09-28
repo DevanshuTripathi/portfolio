@@ -42,7 +42,7 @@ function NavBar() {
             <div className="flex items-center justify-center md:hidden">
             <div className="py-5 text-xl">Devanshu Tripathi</div>
             <button className="md:hidden absolute right-6 text-2xl" onClick={toggleMenu}>☰</button>
-            <div className="nav-mob-div">
+            <div className="nav-mob-div ">
             <ul className={`${isShowing ? 'flex' : 'hidden'} mt-2 text-sm flex-col gap-5 px-10 py-5 nav-mob`}>
                 <li>
                     <Link to="introduction" smooth={true} duration={500}>

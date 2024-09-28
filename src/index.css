@@ -13,6 +13,7 @@ body {
 .navbar {
     background-color: #363636;
     width:100%;
+    z-index:2;
 }
 
 .nav li {
@@ -51,6 +52,10 @@ body {
 
 .nav li:first-child{
     width:100%;
+}
+
+.skill-img {
+    box-shadow: 0 0 12px #F1F5F9;
 }
 
 @media (max-width:480px) {
