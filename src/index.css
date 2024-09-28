@@ -28,6 +28,8 @@ body {
 
 .profile-pic {
     border-radius: 50%;
+    width: 120px; /* Set a specific width for mobile */
+    height: 120px; /* Set height to maintain aspect ratio */
     margin-bottom: 1rem; /* Space below image on small screens */
 }
 
@@ -58,8 +60,9 @@ body {
     .profile-pic {
         margin-bottom: 0; /* Remove bottom margin for larger screens */
         margin-right: 2rem; /* Space between image and text */
-        width: 150px; /* Adjust size for larger screens */
-        height: 150px; /* Maintain aspect ratio */
+        border-radius:250px;
+        height: 400px; /* Maintain aspect ratio */
+        width:auto;
     }
 
     .intro-content {
