@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-    margin:0px;
-    padding:0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Raleway', sans-serif; /* Ensure a fallback font */
     background-color: black;
     color: white; /* Improve readability against black background */
@@ -14,11 +14,13 @@ body {
     background-color: #363636;
 }
 
+/* Flexbox layout for intro section */
 .intro {
     display: flex;
-    flex-direction: column; /* Column on small screens */
+    flex-direction: row; /* Stack items vertically on small screens */
     align-items: center;
     margin-top: 2.5rem;
+    padding: 1rem; /* Add some padding */
 }
 
 .intro-content {
@@ -28,45 +30,13 @@ body {
 
 .profile-pic {
     border-radius: 50%;
-    width: 120px; /* Set a specific width for mobile */
-    height: 120px; /* Set height to maintain aspect ratio */
     margin-bottom: 1rem; /* Space below image on small screens */
 }
 
-.to-animate {
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    margin: 0 auto;
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
-}
-
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: orange; }
-}
-
-@media (min-width: 768px) { 
+@media (max-width:480px) {
     .intro {
-        flex-direction: row; /* Switch to row on larger screens */
-        justify-content: center; 
-    }
-
-    .profile-pic {
-        margin-bottom: 0; /* Remove bottom margin for larger screens */
-        margin-right: 2rem; /* Space between image and text */
-        border-radius:250px;
-        height: 400px; /* Maintain aspect ratio */
-        width:auto;
-    }
-
-    .intro-content {
-        padding: 0 2.5rem; /* Add more padding for larger screens */
-        text-align: left; /* Left-align text for larger screens */
+        flex-direction: column;
     }
 }
+
+
