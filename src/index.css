@@ -12,34 +12,45 @@ body {
 
 .navbar {
     background-color: #363636;
+    width:100%;
 }
 
-.navbar li {
+.nav li {
     transition:0.3s;
 }
 
-.navbar li :hover{
+.nav li:not(:first-child) :hover{
     filter: brightness(0.5);
     cursor:pointer;
 }
 
-/* Flexbox layout for intro section */
+
+
+.nav-mob li:hover {
+    filter: brightness(0.5);
+    cursor:pointer;
+}
+
 .intro {
     display: flex;
-    flex-direction: row; /* Stack items vertically on small screens */
+    flex-direction: row;
     align-items: center;
     margin-top: 2.5rem;
-    padding: 1rem; /* Add some padding */
+    padding: 1rem;
 }
 
 .intro-content {
     padding: 0 1rem; 
-    text-align: center; /* Center text on small screens */
+    text-align: center;
 }
 
 .profile-pic {
     border-radius: 50%;
-    margin-bottom: 1rem; /* Space below image on small screens */
+    margin-bottom: 1rem;
+}
+
+.nav li:first-child{
+    width:100%;
 }
 
 @media (max-width:480px) {
