@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 body {
+    margin:0px;
+    padding:0px;
     font-family: 'Raleway', sans-serif; /* Ensure a fallback font */
     background-color: black;
     color: white; /* Improve readability against black background */
@@ -26,8 +28,6 @@ body {
 
 .profile-pic {
     border-radius: 50%;
-    width: 120px; /* Set a specific width for mobile */
-    height: 120px; /* Set height to maintain aspect ratio */
     margin-bottom: 1rem; /* Space below image on small screens */
 }
 

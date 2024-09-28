@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 function NavBar() {
     return (
         <div className="navbar">
-            <ul className="flex flex-row justify-end gap-10 py-5 text-xl">
+            <ul className="flex flex-row justify-end gap-10 px-5 py-5 text-xl">
                 <li>
                     <Link to="introduction" smooth={true} duration={500}>
                         Introduction
