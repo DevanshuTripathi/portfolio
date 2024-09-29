@@ -28,7 +28,7 @@ function Skills(){
     return (
         <Element name="skills">
             <h1 className="flex justify-center text-4xl font-bold pt-16 ">Skills</h1>
-            <div className="skills flex flex-row md:flex-col relative mt-16 ">
+            <div className="skills flex flex-row md:flex-col justify-center relative mt-16 ">
                 <ul className=" flex flex-col md:flex-row justify-between px-4 md:px-32 mb-10">
                     <div className="relative text-center img-container">
                         <img src={django} className="rounded-full mb-5 h-32 w-32 md:h-40 md:w-40 bg-white skill-img "></img>
