@@ -28,18 +28,18 @@ function Skills(){
     return (
         <Element name="skills">
             <h1 className="flex justify-center text-4xl font-bold pt-20 ">Skills</h1>
-            <div className="skills relative mt-16 ">
-                <ul className=" flex flex-row justify-between px-4 md:px-32 mb-10">
-                    <img src={django} className="rounded-full h-16 w-16 md:h-40 md:w-40 bg-white skill-img "></img>
-                    <img src={react} className="rounded-full h-16 w-16 md:h-40 md:w-40 bg-white skill-img "></img>
-                    <img src={java} className="rounded-full h-16 w-16 md:h-40 md:w-40 bg-white skill-img "></img>
-                    <img src={cpp} className="rounded-full h-16 w-16 md:h-40 md:w-40 bg-white skill-img "></img>
+            <div className="skills flex flex-row md:flex-col relative mt-16 ">
+                <ul className=" flex flex-col md:flex-row justify-between px-4 md:px-32 mb-10">
+                    <img src={django} className="rounded-full mb-5 h-40 w-40 bg-white skill-img "></img>
+                    <img src={react} className="rounded-full mb-5 h-40 w-40 bg-white skill-img "></img>
+                    <img src={java} className="rounded-full mb-5 h-40 w-40 bg-white skill-img "></img>
+                    <img src={cpp} className="rounded-full mb-5 h-40 w-40 bg-white skill-img "></img>
                 </ul>
-                <ul className="flex flex-row justify-between px-4 md:px-32 mb-10">
-                    <img src={python} className="rounded-full h-16 w-16 md:h-40 md:w-40 bg-white skill-img "></img>
-                    <img src={javascript} className="rounded-full h-16 w-16 md:h-40 md:w-40 bg-white skill-img "></img>
-                    <img src={html} className="rounded-full h-16 w-16 md:h-40 md:w-40 bg-white skill-img "></img>
-                    <img src={css} className="rounded-full h-16 w-16 md:h-40 md:w-40 bg-white skill-img "></img>
+                <ul className="flex flex-col md:flex-row justify-between px-4 md:px-32 mb-10">
+                    <img src={python} className="rounded-full mb-5 h-40 w-40 bg-white skill-img "></img>
+                    <img src={javascript} className="rounded-full mb-5 h-40 w-40 bg-white skill-img "></img>
+                    <img src={html} className="rounded-full mb-5 h-40 w-40 bg-white skill-img "></img>
+                    <img src={css} className="rounded-full mb-5 h-40 w-40 bg-white skill-img "></img>
                 </ul>
 
             </div>
