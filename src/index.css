@@ -68,10 +68,25 @@ body {
     transform: rotate(30deg);
 }
 
-.skill-img:hover {
-    /* On hover, they return to the normal position */
+.img-container:hover .skill-img{
     transform: rotate(0deg);
     transition: transform 0.3s ease; /* Faster reset on hover */
+    opacity: 25%;
+}
+
+.img-container:hover .overlay{
+    opacity:1;
+}
+
+.overlay {
+    transition: 0.5s ease;
+    background-color: black;
+}
+
+.content {
+    top: 30%;
+    left: 0%;
+    transform: transalte(-50%, -50%);
 }
 
 @media (max-width:480px) {
