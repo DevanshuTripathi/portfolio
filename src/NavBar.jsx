@@ -10,6 +10,10 @@ function NavBar() {
         setShow(!isShowing);
     }
 
+    const goToTop = () => {
+        window.scrollTo(0,0);
+    }
+
     return (
         <div className="navbar mr-0 fixed overflow-hidden top-0 ">
             <ul className="hidden text-sm md:flex-row md:text-lg md:flex px-10 gap-10 py-5 nav ">
@@ -17,9 +21,7 @@ function NavBar() {
                     Devanshu Tripathi
                 </li>
                 <li>
-                    <Link to="introduction" smooth={true} duration={500}>
-                        Introduction
-                    </Link>
+                    <button onClick={goToTop}>Introduction</button>
                 </li>
                 <li>
                     <Link to="skills" smooth={true} duration={500}>
