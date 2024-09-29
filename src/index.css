@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif; /* Ensure a fallback font */
@@ -56,6 +57,21 @@ body {
 
 .skill-img {
     box-shadow: 0 0 12px #F1F5F9;
+
+    /* Default (normal) state: no rotation */
+    transform: rotate(0deg);
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.skill-img.rotated {
+    /* When the images are scrolled into view, they rotate slightly out of alignment */
+    transform: rotate(30deg);
+}
+
+.skill-img:hover {
+    /* On hover, they return to the normal position */
+    transform: rotate(0deg);
+    transition: transform 0.3s ease; /* Faster reset on hover */
 }
 
 @media (max-width:480px) {
