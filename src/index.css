@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-    background-color: #363636;
+    background-color: black;
     width:100%;
     z-index:2;
 }
@@ -89,10 +89,27 @@ body {
     transform: transalte(-50%, -50%);
 }
 
+.proj-border {
+    height: 450px;
+    transition: 0.4s;
+}
+
+.proj-border :hover {
+    box-shadow: 0 0 18px white;
+}
+
 @media (max-width:480px) {
     .profile-pic {
         width:120px;
         border-radius:50%;
+    }
+
+    .proj-border {
+        height: 120px
+    }
+
+    .proj-border:hover > .image {
+        display: none;
     }
 
     .intro {
