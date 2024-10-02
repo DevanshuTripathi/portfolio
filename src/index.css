@@ -105,11 +105,21 @@ body {
     }
 
     .proj-border {
-        height: 120px
+        height: 120px;
+        transition: height 0.15s ease-out;
     }
 
-    .proj-border:hover > .image {
-        display: none;
+    .proj-border:hover {
+        height: fit-content;
+        transition: height 0.15s ease-in;
+    }
+
+    .proj-border:hover > p {
+        display: block;
+    }
+
+    .proj-border:hover > div {
+        display: block;
     }
 
     .intro {
