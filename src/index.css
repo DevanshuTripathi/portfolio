@@ -6,7 +6,7 @@ body {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif; /* Ensure a fallback font */
+    font-family: 'Raleway' ,sans-serif; /* Ensure a fallback font */
     background-color: black;
     color: white; /* Improve readability against black background */
 }
@@ -64,7 +64,6 @@ body {
 }
 
 .skill-img.rotated {
-    /* When the images are scrolled into view, they rotate slightly out of alignment */
     transform: rotate(30deg);
 }
 
@@ -96,6 +95,11 @@ body {
 
 .proj-border :hover {
     box-shadow: 0 0 18px white;
+}
+
+.email {
+    background-color: #17262B;
+    border-radius: 20px 0px;
 }
 
 @media (max-width:480px) {

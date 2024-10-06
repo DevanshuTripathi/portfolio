@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 function Introduction(){
     return (
         <Element name="introduction">
-        <div className="intro mt-24">
+        <div className="intro pt-24">
             <div>
             <img className="profile-pic " src={profilePic} />
             </div>

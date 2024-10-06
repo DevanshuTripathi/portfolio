@@ -21,7 +21,9 @@ function NavBar() {
                     Devanshu Tripathi
                 </li>
                 <li>
-                    <button onClick={goToTop}>Introduction</button>
+                    <Link to="introduction" smooth={true} duration={500}>
+                        Introduction
+                    </Link>
                 </li>
                 <li>
                     <Link to="skills" smooth={true} duration={500}>
