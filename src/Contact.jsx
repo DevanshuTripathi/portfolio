@@ -17,7 +17,7 @@ function Contact () {
                     <p className="flex flex-row gap-4 mt-4">
                         <a href="https://www.instagram.com/devanshu_tripathi_120/" target="_blank"><img src={instagram} className="bg-white h-10 md:h-10 rounded-lg " /></a>
                         <a href="https://www.linkedin.com/in/devanshu-tripathi-479289229/" target="_blank"><img src={linkedin} className="bg-white h-10 md:h-10 rounded-lg " /></a>
-                        <a href="https://www.reddit.com/user/blufftunic/" target="_blank"><img src={reddit} className="bg-white h-10 md:h-10 rounded-lg " /></a>
+                        <a href="https://www.reddit.com/user/DevanshuTripathi/" target="_blank"><img src={reddit} className="bg-white h-10 md:h-10 rounded-lg " /></a>
                         <a href="mailto:adithieprince120@gmail.com" target="_blank"><img src={email} className="bg-white h-10 md:h-10 rounded-lg " /></a>
 
                     </p>
